@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
+string
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/412.cpp
+vector
+-
+string
+-
+cstdio
+-
+cstdlib
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/461.cpp
 iostream
 -
@@ -42,6 +56,16 @@ algorithm
 vector
 -
 
+/Users/zhangchaopeng/CLionProjects/leetCode/566.cpp
+vector
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/575.cpp
+vector
+-
+algorithm
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/617.cpp
 
 /Users/zhangchaopeng/CLionProjects/leetCode/657.cpp
@@ -51,6 +75,6 @@ string
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
 iostream
 -
-557.cpp
-/Users/zhangchaopeng/CLionProjects/leetCode/557.cpp
+575.cpp
+/Users/zhangchaopeng/CLionProjects/leetCode/575.cpp
 
