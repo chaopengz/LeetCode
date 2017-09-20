@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/Users/zhangchaopeng/CLionProjects/leetCode/001.cpp
+vector
+-
+map
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/002.cpp
+
+/Users/zhangchaopeng/CLionProjects/leetCode/003.cpp
+string
+-
+vector
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/004.cpp
+vector
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 string
 -
@@ -24,8 +42,16 @@ cstdlib
 iostream
 -
 
+/Users/zhangchaopeng/CLionProjects/leetCode/463.cpp
+vector
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/476.cpp
 cmath
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/496.cpp
+vector
 -
 
 /Users/zhangchaopeng/CLionProjects/leetCode/500.cpp
@@ -34,6 +60,10 @@ vector
 string
 -
 map
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/521.cpp
+string
 -
 
 /Users/zhangchaopeng/CLionProjects/leetCode/557.cpp
@@ -68,13 +98,27 @@ algorithm
 
 /Users/zhangchaopeng/CLionProjects/leetCode/617.cpp
 
+/Users/zhangchaopeng/CLionProjects/leetCode/637.cpp
+string
+-
+queue
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/657.cpp
 string
 -
 
+/Users/zhangchaopeng/CLionProjects/leetCode/669.cpp
+queue
+-
+
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
+vector
+-
+string
+-
 iostream
 -
-575.cpp
-/Users/zhangchaopeng/CLionProjects/leetCode/575.cpp
+sstream
+-
 

@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/001.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/002.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/003.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/004.cpp">
+			<Option target="leetCode"/>
+		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp">
 			<Option target="leetCode"/>
 		</Unit>
@@ -95,7 +107,13 @@
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/476.cpp">
 			<Option target="leetCode"/>
 		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/496.cpp">
+			<Option target="leetCode"/>
+		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/500.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/521.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/557.cpp">
@@ -113,7 +131,13 @@
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/617.cpp">
 			<Option target="leetCode"/>
 		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/637.cpp">
+			<Option target="leetCode"/>
+		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/657.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/669.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/main.cpp">
