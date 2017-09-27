@@ -44,10 +44,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -65,10 +66,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -90,6 +92,18 @@
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/004.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/005.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/010.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/011.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/012.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp">
@@ -138,6 +152,12 @@
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/669.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/LCS.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/head.h">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/main.cpp">

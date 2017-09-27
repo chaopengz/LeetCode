@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zhangchaopeng/CLionProjects/leetCode/002.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/002.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/003.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/003.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/004.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/004.cpp.o"
+  "/Users/zhangchaopeng/CLionProjects/leetCode/005.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/005.cpp.o"
+  "/Users/zhangchaopeng/CLionProjects/leetCode/010.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/010.cpp.o"
+  "/Users/zhangchaopeng/CLionProjects/leetCode/011.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/011.cpp.o"
+  "/Users/zhangchaopeng/CLionProjects/leetCode/012.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/012.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/344.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/412.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/412.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/461.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/461.cpp.o"
@@ -24,6 +28,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zhangchaopeng/CLionProjects/leetCode/637.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/637.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/657.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/657.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/669.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/669.cpp.o"
+  "/Users/zhangchaopeng/CLionProjects/leetCode/LCS.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/LCS.cpp.o"
   "/Users/zhangchaopeng/CLionProjects/leetCode/main.cpp" "/Users/zhangchaopeng/CLionProjects/leetCode/cmake-build-debug/CMakeFiles/leetCode.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

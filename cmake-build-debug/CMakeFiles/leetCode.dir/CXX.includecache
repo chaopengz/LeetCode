@@ -24,6 +24,20 @@ vector
 vector
 -
 
+/Users/zhangchaopeng/CLionProjects/leetCode/005.cpp
+string
+-
+vector
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/010.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/011.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
 /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 string
 -
@@ -110,6 +124,22 @@ string
 
 /Users/zhangchaopeng/CLionProjects/leetCode/669.cpp
 queue
+-
+
+/Users/zhangchaopeng/CLionProjects/leetCode/LCS.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+vector
+-
+string
+-
+iostream
+-
+algorithm
+-
+cstdlib
 -
 
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp

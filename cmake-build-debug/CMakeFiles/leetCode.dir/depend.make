@@ -9,6 +9,14 @@ CMakeFiles/leetCode.dir/003.cpp.o: ../003.cpp
 
 CMakeFiles/leetCode.dir/004.cpp.o: ../004.cpp
 
+CMakeFiles/leetCode.dir/005.cpp.o: ../005.cpp
+
+CMakeFiles/leetCode.dir/010.cpp.o: ../010.cpp
+CMakeFiles/leetCode.dir/010.cpp.o: ../head.h
+
+CMakeFiles/leetCode.dir/011.cpp.o: ../011.cpp
+CMakeFiles/leetCode.dir/011.cpp.o: ../head.h
+
 CMakeFiles/leetCode.dir/344.cpp.o: ../344.cpp
 
 CMakeFiles/leetCode.dir/412.cpp.o: ../412.cpp
@@ -40,6 +48,9 @@ CMakeFiles/leetCode.dir/637.cpp.o: ../637.cpp
 CMakeFiles/leetCode.dir/657.cpp.o: ../657.cpp
 
 CMakeFiles/leetCode.dir/669.cpp.o: ../669.cpp
+
+CMakeFiles/leetCode.dir/LCS.cpp.o: ../LCS.cpp
+CMakeFiles/leetCode.dir/LCS.cpp.o: ../head.h
 
 CMakeFiles/leetCode.dir/main.cpp.o: ../main.cpp
 
