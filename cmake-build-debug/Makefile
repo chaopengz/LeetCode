@@ -312,32 +312,59 @@ leetCode/fast:
 	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/011.cpp.s
 .PHONY : 011.cpp.s
 
-012.o: 012.cpp.o
+015.o: 015.cpp.o
 
-.PHONY : 012.o
+.PHONY : 015.o
 
 # target to build an object file
-012.cpp.o:
-	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/012.cpp.o
-.PHONY : 012.cpp.o
+015.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/015.cpp.o
+.PHONY : 015.cpp.o
 
-012.i: 012.cpp.i
+015.i: 015.cpp.i
 
-.PHONY : 012.i
+.PHONY : 015.i
 
 # target to preprocess a source file
-012.cpp.i:
-	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/012.cpp.i
-.PHONY : 012.cpp.i
+015.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/015.cpp.i
+.PHONY : 015.cpp.i
 
-012.s: 012.cpp.s
+015.s: 015.cpp.s
 
-.PHONY : 012.s
+.PHONY : 015.s
 
 # target to generate assembly for a file
-012.cpp.s:
-	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/012.cpp.s
-.PHONY : 012.cpp.s
+015.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/015.cpp.s
+.PHONY : 015.cpp.s
+
+017.o: 017.cpp.o
+
+.PHONY : 017.o
+
+# target to build an object file
+017.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/017.cpp.o
+.PHONY : 017.cpp.o
+
+017.i: 017.cpp.i
+
+.PHONY : 017.i
+
+# target to preprocess a source file
+017.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/017.cpp.i
+.PHONY : 017.cpp.i
+
+017.s: 017.cpp.s
+
+.PHONY : 017.s
+
+# target to generate assembly for a file
+017.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/017.cpp.s
+.PHONY : 017.cpp.s
 
 344.o: 344.cpp.o
 
@@ -855,9 +882,12 @@ help:
 	@echo "... 011.o"
 	@echo "... 011.i"
 	@echo "... 011.s"
-	@echo "... 012.o"
-	@echo "... 012.i"
-	@echo "... 012.s"
+	@echo "... 015.o"
+	@echo "... 015.i"
+	@echo "... 015.s"
+	@echo "... 017.o"
+	@echo "... 017.i"
+	@echo "... 017.s"
 	@echo "... 344.o"
 	@echo "... 344.i"
 	@echo "... 344.s"

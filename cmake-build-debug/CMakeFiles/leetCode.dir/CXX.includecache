@@ -38,6 +38,10 @@ head.h
 head.h
 /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 
+/Users/zhangchaopeng/CLionProjects/leetCode/015.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
 /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 string
 -
@@ -143,12 +147,6 @@ cstdlib
 -
 
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
-vector
--
-string
--
-iostream
--
-sstream
--
+015.cpp
+/Users/zhangchaopeng/CLionProjects/leetCode/015.cpp
 

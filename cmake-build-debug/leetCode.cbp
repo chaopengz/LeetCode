@@ -103,7 +103,10 @@
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/011.cpp">
 			<Option target="leetCode"/>
 		</Unit>
-		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/012.cpp">
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/015.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/017.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp">
