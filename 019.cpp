@@ -101,18 +101,18 @@ string listNodeToString(ListNode* node) {
     }
     return result.substr(0, result.length() - 2);
 }
-
-int main() {
-    string line;
-    while (getline(cin, line)) {
-        ListNode* head = stringToListNode(line);
-        getline(cin, line);
-        int n = stringToInteger(line);
-
-        ListNode* ret = Solution().removeNthFromEnd(head, n);
-
-        string out = listNodeToString(ret);
-        cout << out << endl;
-    }
-    return 0;
-}
+//
+//int main() {
+//    string line;
+//    while (getline(cin, line)) {
+//        ListNode* head = stringToListNode(line);
+//        getline(cin, line);
+//        int n = stringToInteger(line);
+//
+//        ListNode* ret = Solution().removeNthFromEnd(head, n);
+//
+//        string out = listNodeToString(ret);
+//        cout << out << endl;
+//    }
+//    return 0;
+//}

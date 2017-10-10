@@ -10,6 +10,9 @@
 #include <iostream>
 #include <algorithm>
 #include <cstdlib>
+#include <stack>
+#include <queue>
+#include <sstream>
 using namespace std;
 
 #endif //LEETCODE_HEAD_H

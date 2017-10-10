@@ -20,6 +20,12 @@ CMakeFiles/leetCode.dir/011.cpp.o
 CMakeFiles/leetCode.dir/015.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/015.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/017.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/017.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/019.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/019.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/344.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 CMakeFiles/leetCode.dir/412.cpp.o
@@ -56,6 +62,5 @@ CMakeFiles/leetCode.dir/LCS.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/LCS.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/main.cpp.o
- /Users/zhangchaopeng/CLionProjects/leetCode/015.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
  /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp

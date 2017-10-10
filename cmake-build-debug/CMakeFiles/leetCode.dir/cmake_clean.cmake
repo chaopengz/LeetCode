@@ -26,6 +26,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetCode.dir/011.cpp.o"
   "CMakeFiles/leetCode.dir/015.cpp.o"
   "CMakeFiles/leetCode.dir/017.cpp.o"
+  "CMakeFiles/leetCode.dir/019.cpp.o"
+  "CMakeFiles/leetCode.dir/020.cpp.o"
   "leetCode.pdb"
   "leetCode"
 )

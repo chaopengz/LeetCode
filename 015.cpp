@@ -11,7 +11,6 @@ public:
         int j, k, sum;
         vector<vector<int>> res;
 
-
         sort(nums.begin(), nums.end());
 
         for (int i = 0; i < len - 2; ++i)

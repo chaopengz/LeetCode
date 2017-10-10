@@ -42,6 +42,14 @@ head.h
 head.h
 /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 
+/Users/zhangchaopeng/CLionProjects/leetCode/017.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/019.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
 /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 string
 -
@@ -145,8 +153,14 @@ algorithm
 -
 cstdlib
 -
+stack
+-
+queue
+-
+sstream
+-
 
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
-015.cpp
-/Users/zhangchaopeng/CLionProjects/leetCode/015.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
 
