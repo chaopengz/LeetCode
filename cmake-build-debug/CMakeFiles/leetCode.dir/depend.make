@@ -86,7 +86,5 @@ CMakeFiles/leetCode.dir/main.cpp.o: ../023.cpp
 CMakeFiles/leetCode.dir/main.cpp.o: ../head.h
 CMakeFiles/leetCode.dir/main.cpp.o: ../main.cpp
 
-CMakeFiles/leetCode.dir/testBug.cpp.o: ../023.cpp
-CMakeFiles/leetCode.dir/testBug.cpp.o: ../head.h
 CMakeFiles/leetCode.dir/testBug.cpp.o: ../testBug.cpp
 
