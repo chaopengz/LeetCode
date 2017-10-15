@@ -50,6 +50,30 @@ head.h
 head.h
 /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 
+/Users/zhangchaopeng/CLionProjects/leetCode/020.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/021.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/022.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/023.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/053.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
+/Users/zhangchaopeng/CLionProjects/leetCode/070.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+
 /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
 string
 -
@@ -63,6 +87,10 @@ cstdio
 -
 cstdlib
 -
+
+/Users/zhangchaopeng/CLionProjects/leetCode/448.cpp
+head.h
+/Users/zhangchaopeng/CLionProjects/leetCode/head.h
 
 /Users/zhangchaopeng/CLionProjects/leetCode/461.cpp
 iostream
@@ -161,6 +189,10 @@ sstream
 -
 
 /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
-head.h
-/Users/zhangchaopeng/CLionProjects/leetCode/head.h
+023.cpp
+/Users/zhangchaopeng/CLionProjects/leetCode/023.cpp
+
+/Users/zhangchaopeng/CLionProjects/leetCode/testBug.cpp
+023.cpp
+/Users/zhangchaopeng/CLionProjects/leetCode/023.cpp
 
