@@ -501,6 +501,60 @@ leetCode/fast:
 	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/023.cpp.s
 .PHONY : 023.cpp.s
 
+033.o: 033.cpp.o
+
+.PHONY : 033.o
+
+# target to build an object file
+033.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/033.cpp.o
+.PHONY : 033.cpp.o
+
+033.i: 033.cpp.i
+
+.PHONY : 033.i
+
+# target to preprocess a source file
+033.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/033.cpp.i
+.PHONY : 033.cpp.i
+
+033.s: 033.cpp.s
+
+.PHONY : 033.s
+
+# target to generate assembly for a file
+033.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/033.cpp.s
+.PHONY : 033.cpp.s
+
+034.o: 034.cpp.o
+
+.PHONY : 034.o
+
+# target to build an object file
+034.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/034.cpp.o
+.PHONY : 034.cpp.o
+
+034.i: 034.cpp.i
+
+.PHONY : 034.i
+
+# target to preprocess a source file
+034.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/034.cpp.i
+.PHONY : 034.cpp.i
+
+034.s: 034.cpp.s
+
+.PHONY : 034.s
+
+# target to generate assembly for a file
+034.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/034.cpp.s
+.PHONY : 034.cpp.s
+
 053.o: 053.cpp.o
 
 .PHONY : 053.o
@@ -554,6 +608,195 @@ leetCode/fast:
 070.cpp.s:
 	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/070.cpp.s
 .PHONY : 070.cpp.s
+
+121.o: 121.cpp.o
+
+.PHONY : 121.o
+
+# target to build an object file
+121.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/121.cpp.o
+.PHONY : 121.cpp.o
+
+121.i: 121.cpp.i
+
+.PHONY : 121.i
+
+# target to preprocess a source file
+121.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/121.cpp.i
+.PHONY : 121.cpp.i
+
+121.s: 121.cpp.s
+
+.PHONY : 121.s
+
+# target to generate assembly for a file
+121.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/121.cpp.s
+.PHONY : 121.cpp.s
+
+136.o: 136.cpp.o
+
+.PHONY : 136.o
+
+# target to build an object file
+136.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/136.cpp.o
+.PHONY : 136.cpp.o
+
+136.i: 136.cpp.i
+
+.PHONY : 136.i
+
+# target to preprocess a source file
+136.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/136.cpp.i
+.PHONY : 136.cpp.i
+
+136.s: 136.cpp.s
+
+.PHONY : 136.s
+
+# target to generate assembly for a file
+136.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/136.cpp.s
+.PHONY : 136.cpp.s
+
+169.o: 169.cpp.o
+
+.PHONY : 169.o
+
+# target to build an object file
+169.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/169.cpp.o
+.PHONY : 169.cpp.o
+
+169.i: 169.cpp.i
+
+.PHONY : 169.i
+
+# target to preprocess a source file
+169.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/169.cpp.i
+.PHONY : 169.cpp.i
+
+169.s: 169.cpp.s
+
+.PHONY : 169.s
+
+# target to generate assembly for a file
+169.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/169.cpp.s
+.PHONY : 169.cpp.s
+
+198.o: 198.cpp.o
+
+.PHONY : 198.o
+
+# target to build an object file
+198.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/198.cpp.o
+.PHONY : 198.cpp.o
+
+198.i: 198.cpp.i
+
+.PHONY : 198.i
+
+# target to preprocess a source file
+198.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/198.cpp.i
+.PHONY : 198.cpp.i
+
+198.s: 198.cpp.s
+
+.PHONY : 198.s
+
+# target to generate assembly for a file
+198.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/198.cpp.s
+.PHONY : 198.cpp.s
+
+206.o: 206.cpp.o
+
+.PHONY : 206.o
+
+# target to build an object file
+206.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/206.cpp.o
+.PHONY : 206.cpp.o
+
+206.i: 206.cpp.i
+
+.PHONY : 206.i
+
+# target to preprocess a source file
+206.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/206.cpp.i
+.PHONY : 206.cpp.i
+
+206.s: 206.cpp.s
+
+.PHONY : 206.s
+
+# target to generate assembly for a file
+206.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/206.cpp.s
+.PHONY : 206.cpp.s
+
+226.o: 226.cpp.o
+
+.PHONY : 226.o
+
+# target to build an object file
+226.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/226.cpp.o
+.PHONY : 226.cpp.o
+
+226.i: 226.cpp.i
+
+.PHONY : 226.i
+
+# target to preprocess a source file
+226.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/226.cpp.i
+.PHONY : 226.cpp.i
+
+226.s: 226.cpp.s
+
+.PHONY : 226.s
+
+# target to generate assembly for a file
+226.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/226.cpp.s
+.PHONY : 226.cpp.s
+
+283.o: 283.cpp.o
+
+.PHONY : 283.o
+
+# target to build an object file
+283.cpp.o:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/283.cpp.o
+.PHONY : 283.cpp.o
+
+283.i: 283.cpp.i
+
+.PHONY : 283.i
+
+# target to preprocess a source file
+283.cpp.i:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/283.cpp.i
+.PHONY : 283.cpp.i
+
+283.s: 283.cpp.s
+
+.PHONY : 283.s
+
+# target to generate assembly for a file
+283.cpp.s:
+	$(MAKE) -f CMakeFiles/leetCode.dir/build.make CMakeFiles/leetCode.dir/283.cpp.s
+.PHONY : 283.cpp.s
 
 344.o: 344.cpp.o
 
@@ -1146,12 +1389,39 @@ help:
 	@echo "... 023.o"
 	@echo "... 023.i"
 	@echo "... 023.s"
+	@echo "... 033.o"
+	@echo "... 033.i"
+	@echo "... 033.s"
+	@echo "... 034.o"
+	@echo "... 034.i"
+	@echo "... 034.s"
 	@echo "... 053.o"
 	@echo "... 053.i"
 	@echo "... 053.s"
 	@echo "... 070.o"
 	@echo "... 070.i"
 	@echo "... 070.s"
+	@echo "... 121.o"
+	@echo "... 121.i"
+	@echo "... 121.s"
+	@echo "... 136.o"
+	@echo "... 136.i"
+	@echo "... 136.s"
+	@echo "... 169.o"
+	@echo "... 169.i"
+	@echo "... 169.s"
+	@echo "... 198.o"
+	@echo "... 198.i"
+	@echo "... 198.s"
+	@echo "... 206.o"
+	@echo "... 206.i"
+	@echo "... 206.s"
+	@echo "... 226.o"
+	@echo "... 226.i"
+	@echo "... 226.s"
+	@echo "... 283.o"
+	@echo "... 283.i"
+	@echo "... 283.s"
 	@echo "... 344.o"
 	@echo "... 344.i"
 	@echo "... 344.s"

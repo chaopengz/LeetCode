@@ -38,11 +38,34 @@ CMakeFiles/leetCode.dir/022.cpp.o
 CMakeFiles/leetCode.dir/023.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/023.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/033.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/033.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/034.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/034.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/053.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/053.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/070.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/070.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/121.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/121.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/136.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/136.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/169.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/169.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/206.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/206.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/head.h
+CMakeFiles/leetCode.dir/226.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/226.cpp
+CMakeFiles/leetCode.dir/283.cpp.o
+ /Users/zhangchaopeng/CLionProjects/leetCode/283.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/344.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/344.cpp
@@ -83,7 +106,7 @@ CMakeFiles/leetCode.dir/LCS.cpp.o
  /Users/zhangchaopeng/CLionProjects/leetCode/LCS.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
 CMakeFiles/leetCode.dir/main.cpp.o
- /Users/zhangchaopeng/CLionProjects/leetCode/023.cpp
+ /Users/zhangchaopeng/CLionProjects/leetCode/121.cpp
  /Users/zhangchaopeng/CLionProjects/leetCode/head.h
  /Users/zhangchaopeng/CLionProjects/leetCode/main.cpp
 CMakeFiles/leetCode.dir/testBug.cpp.o

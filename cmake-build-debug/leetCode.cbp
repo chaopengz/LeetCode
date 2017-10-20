@@ -124,10 +124,37 @@
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/023.cpp">
 			<Option target="leetCode"/>
 		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/033.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/034.cpp">
+			<Option target="leetCode"/>
+		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/053.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/070.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/121.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/136.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/169.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/198.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/206.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/226.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/283.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp">
