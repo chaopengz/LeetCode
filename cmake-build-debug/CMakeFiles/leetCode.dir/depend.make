@@ -56,8 +56,14 @@ CMakeFiles/leetCode.dir/121.cpp.o: ../head.h
 CMakeFiles/leetCode.dir/136.cpp.o: ../136.cpp
 CMakeFiles/leetCode.dir/136.cpp.o: ../head.h
 
+CMakeFiles/leetCode.dir/141.cpp.o: ../141.cpp
+CMakeFiles/leetCode.dir/141.cpp.o: ../head.h
+
 CMakeFiles/leetCode.dir/169.cpp.o: ../169.cpp
 CMakeFiles/leetCode.dir/169.cpp.o: ../head.h
+
+CMakeFiles/leetCode.dir/198.cpp.o: ../198.cpp
+CMakeFiles/leetCode.dir/198.cpp.o: ../head.h
 
 CMakeFiles/leetCode.dir/206.cpp.o: ../206.cpp
 CMakeFiles/leetCode.dir/206.cpp.o: ../head.h
@@ -66,6 +72,9 @@ CMakeFiles/leetCode.dir/226.cpp.o: ../226.cpp
 
 CMakeFiles/leetCode.dir/283.cpp.o: ../283.cpp
 CMakeFiles/leetCode.dir/283.cpp.o: ../head.h
+
+CMakeFiles/leetCode.dir/338.cpp.o: ../338.cpp
+CMakeFiles/leetCode.dir/338.cpp.o: ../head.h
 
 CMakeFiles/leetCode.dir/344.cpp.o: ../344.cpp
 
@@ -105,7 +114,7 @@ CMakeFiles/leetCode.dir/669.cpp.o: ../669.cpp
 CMakeFiles/leetCode.dir/LCS.cpp.o: ../LCS.cpp
 CMakeFiles/leetCode.dir/LCS.cpp.o: ../head.h
 
-CMakeFiles/leetCode.dir/main.cpp.o: ../121.cpp
+CMakeFiles/leetCode.dir/main.cpp.o: ../338.cpp
 CMakeFiles/leetCode.dir/main.cpp.o: ../head.h
 CMakeFiles/leetCode.dir/main.cpp.o: ../main.cpp
 

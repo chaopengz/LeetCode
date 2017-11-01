@@ -142,6 +142,9 @@
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/136.cpp">
 			<Option target="leetCode"/>
 		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/141.cpp">
+			<Option target="leetCode"/>
+		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/169.cpp">
 			<Option target="leetCode"/>
 		</Unit>
@@ -155,6 +158,9 @@
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/283.cpp">
+			<Option target="leetCode"/>
+		</Unit>
+		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/338.cpp">
 			<Option target="leetCode"/>
 		</Unit>
 		<Unit filename="/Users/zhangchaopeng/CLionProjects/leetCode/344.cpp">
