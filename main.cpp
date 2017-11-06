@@ -1,13 +1,15 @@
 #include "head.h"
-#include "338.cpp"
+#include "238.cpp"
 
 int main()
 {
-    int n = 7;
     Solution s;
-    vector<int> v;
-    v = s.countBits(n);
-    for (auto i:v)
+    int a[] = {1, 2, 3};
+    vector<int> v(a, a + 3);
+
+    vector<int> ans;
+    ans = s.productExceptSelf(v);
+    for (auto i:ans)
         cout << i << " ";
 
 }
