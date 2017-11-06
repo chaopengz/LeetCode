@@ -13,6 +13,8 @@
 #include <stack>
 #include <queue>
 #include <sstream>
+#include <map>
+
 using namespace std;
 
 #endif //LEETCODE_HEAD_H

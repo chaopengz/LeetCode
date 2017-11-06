@@ -1,16 +1,14 @@
 #include "head.h"
-#include "238.cpp"
+#include "046.cpp"
 
 int main()
 {
     Solution s;
-    int a[] = {1, 2, 3};
+    int a[] = {0,-1,1};
     vector<int> v(a, a + 3);
 
-    vector<int> ans;
-    ans = s.productExceptSelf(v);
-    for (auto i:ans)
-        cout << i << " ";
+    s.permute(v);
+
 
 }
 
