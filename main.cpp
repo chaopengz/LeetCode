@@ -1,13 +1,13 @@
 #include "head.h"
-#include "046.cpp"
+#include "287.cpp"
 
 int main()
 {
     Solution s;
-    int a[] = {0,-1,1};
+    int a[] = {1,2,2};
     vector<int> v(a, a + 3);
 
-    s.permute(v);
+    cout<<s.findDuplicate(v);
 
 
 }
