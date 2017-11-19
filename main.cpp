@@ -3,11 +3,11 @@
 
 int main()
 {
-    int a[] = {0,0,0,1};
-    vector<int> v(a, a + 4);
+    int a[] = {1,999};
+    vector<int> v(a, a + 2);
 
     Solution s;
-    cout << s.findTargetSumWays(v, 1);
+    cout << s.findTargetSumWays(v, 998);
 //    vector<int> v;
 //    v.resize(10);
 //    v[-1] = 0;
