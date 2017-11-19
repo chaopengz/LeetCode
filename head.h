@@ -14,6 +14,8 @@
 #include <queue>
 #include <sstream>
 #include <map>
+#include <cstdlib>
+#include <cstring>
 #define INT_MIN -10000000
 #define INT_MAX 1000000
 
