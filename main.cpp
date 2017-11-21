@@ -1,13 +1,13 @@
 #include "head.h"
-#include "494.cpp"
+#include "312.cpp"
 
 int main()
 {
-    int a[] = {1,2,1};
-    vector<int> v(a, a + 3);
+    int a[] = {3, 1, 5, 8};
+    vector<int> v(a, a + 4);
 
     Solution s;
-    cout << s.findTargetSumWays(v, 0);
+    cout << s.maxCoins(v);
 
 
 }
