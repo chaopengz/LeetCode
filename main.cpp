@@ -1,13 +1,12 @@
 #include "head.h"
-#include "312.cpp"
+#include "078.cpp"
 
-int main()
-{
-    int a[] = {3, 1, 5, 8};
-    vector<int> v(a, a + 4);
+int main() {
+    int a[] = {1, 2, 3};
+    vector<int> v(a, a + 3);
 
     Solution s;
-    cout << s.maxCoins(v);
+    s.subsets(v);
 
 
 }
