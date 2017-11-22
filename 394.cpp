@@ -9,49 +9,50 @@ public:
     string decodeString(string s)
     {
         stack<string> chars;
+        chars.push("");
         stack<int> nums;
-        string result = "";
-        string encoded;
-
         string c;
-        string pre;
-        bool isdecoding = false;
+        string encode = "";
+        string str;
         int n;
+        string strOfNums = "";
         for (int i = 0; i < s.size(); ++i)
         {
             c = s[i];
-
             if (c == "[")
             {
-                isdecoding = true;
-                encoded = "";
+
+                n = atoi(strOfNums.c_str());
+                nums.push(n);
+                strOfNums = "";
+
+                chars.push("");
             } else if (c == "]")
             {
-
-                if (nums.empty() && chars.empty())
+                str = chars.top();
+                chars.pop();
+                n = nums.top();
+                nums.pop();
+                encode = "";
+                for (int j = 0; j < n; ++j)
                 {
-                    isdecoding = false;
+                    encode += str;
                 }
-            } else if (has_only_digits(c))
+                encode = chars.top() + encode;
+                chars.pop();
+                chars.push(encode);
+            } else if (has_only_digits(c))//num
             {
-                if(isdecoding)
-                {
-
-                }
-                n = atoi(c);
-                nums.push(n);
-            } else
+                strOfNums += c;
+            } else//字母
             {
-                if (!isdecoding)
-                {
-                    result += c;
-                } else
-                {
-                    encoded += c;
-                }
+                encode = chars.top();
+                chars.pop();
+                encode += c;
+                chars.push(encode);
             }
-
         }
+        return chars.top();
     }
 
     bool has_only_digits(const string s)
