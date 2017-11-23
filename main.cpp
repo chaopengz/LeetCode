@@ -1,4 +1,4 @@
-#include "394.cpp"
+#include "096.cpp"
 
 int main()
 {
@@ -9,6 +9,6 @@ int main()
 //    string str = "2[abc]3[cd]ef";
 //    string str = "100[leetcode]";
     Solution s;
-    cout << s.decodeString(str);
+    cout << s.numTrees(3);
 
 }
