@@ -21,7 +21,7 @@ public:
             k = 1;
             for (int j = i + 1; j < n; ++j)
             {
-                swap(matrix[i][j],matrix[i-k][j+k]);
+                swap(matrix[i][j],matrix[i+k][j-k]);
                 k++;
             }
         }
