@@ -1,11 +1,16 @@
-#include "572.cpp"
-#include "buildTree.h"
+//#include "048.cpp"
 
 int main()
 {
-    Solution so;
-    BuildTree b;
-    TreeNode *s = b.stringToTree("[3,4,5,1,2]");
-    TreeNode *t = b.stringToTree("[4,1,2]");
-    cout << so.isSubtree(s, t);
+//    Solution so;
+//    vector<vector<int>> mat;
+//    int a[] = {1, 2, 3};
+//    int b[] = {4, 5, 6};
+//    int c[] = {7, 8, 9};
+//    vector<int> v1(a, a + 3), v2(b, b + 3), v3(c, c + 3);
+//    mat.push_back(v1);
+//    mat.push_back(v2);
+//    mat.push_back(v3);
+//
+//    so.rotate(mat);
 }

@@ -5,18 +5,26 @@
 
 class Solution {
 public:
-    void rotate(vector<vector<int>>& matrix) {
-        if(matrix.empty())
+    void rotate(vector<vector<int>> &matrix)
+    {
+        if (matrix.empty())
             return;
         int n = matrix[0].size();
 
-        for (int i = 0; i < n/2; ++i)
+        for (int i = 0; i < n / 2; ++i)
         {
-            swap(matrix[i],matrix[n-i-1]);
+            swap(matrix[i], matrix[n - i - 1]);
         }
-        for (int step = 1; step < n; ++step)
+        int k;
+        for (int i = 0; i < n - 1; ++i)
         {
-
+            k = 1;
+            for (int j = i + 1; j < n; ++j)
+            {
+                swap(matrix[i][j],matrix[i-k][j+k]);
+                k++;
+            }
         }
+        return;
     }
 };
