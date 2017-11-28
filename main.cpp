@@ -1,14 +1,11 @@
-#include "096.cpp"
+#include "572.cpp"
+#include "buildTree.h"
 
 int main()
 {
-//    int a[] = {1, 2, 3};
-//    vector<int> v(a, a + 3);
-    string str = "3[a]2[bc]";
-//    string str = "3[a2[c]]";
-//    string str = "2[abc]3[cd]ef";
-//    string str = "100[leetcode]";
-    Solution s;
-    cout << s.numTrees(3);
-
+    Solution so;
+    BuildTree b;
+    TreeNode *s = b.stringToTree("[3,4,5,1,2]");
+    TreeNode *t = b.stringToTree("[4,1,2]");
+    cout << so.isSubtree(s, t);
 }
