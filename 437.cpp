@@ -5,10 +5,19 @@
 
 class Solution {
 public:
-    int pathSum(TreeNode *root, int sum)
+    int pathSumFromNode(TreeNode *root, int sum)
     {
+        if (!root)
+            return 0;
+        return (root->val == sum ? 1 : 0) + pathSumFromNode(root->left, sum - root->val) +
+               pathSumFromNode(root->right, sum - root->val);
 
     }
 
-    int ans = 0;
+    int pathSum(TreeNode *root, int sum)
+    {
+        if (!root)
+            return 0;
+        return pathSumFromNode(root, sum) + pathSum(root->left, sum) + pathSum(root->right, sum);
+    }
 };
