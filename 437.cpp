@@ -7,9 +7,6 @@ class Solution {
 public:
     int pathSum(TreeNode *root, int sum)
     {
-        if (!root)
-            return 0;
-        if (sum == 0) ans++;
 
     }
 
