@@ -1,16 +1,9 @@
-#include "048.cpp"
+#include "039.cpp"
 
 int main()
 {
     Solution so;
-    vector<vector<int>> mat;
-    int a[] = {1, 2, 3};
-    int b[] = {4, 5, 6};
-    int c[] = {7, 8, 9};
-    vector<int> v1(a, a + 3), v2(b, b + 3), v3(c, c + 3);
-    mat.push_back(v1);
-    mat.push_back(v2);
-    mat.push_back(v3);
-
-    so.rotate(mat);
+    int a[] = {2, 3, 6, 7};
+    vector<int> v(a, a + 4);
+    so.combinationSum(v, 7);
 }
