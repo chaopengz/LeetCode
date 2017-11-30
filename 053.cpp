@@ -8,18 +8,25 @@ class Solution {
 public:
     int maxSubArray(vector<int> &nums)
     {
-        int sum;
-        int n = nums.size();
-        int ans = -2147483647;
-        for (int i = 0; i < n ; ++i)
+        int len = nums.size();
+        if (!len)
+            return 0;
+        if (len == 1)
+            return nums[0];
+        else
         {
-            sum = 0;
-            for (int j = i ; j < n; ++j)
+            int sum = nums[0];
+            int minPreSum = min(0, nums[0]);
+            int ans = nums[0];
+
+            for (int i = 1; i < nums.size(); i++)
             {
-                sum +=  nums[j];
-                ans = max(sum, ans);
+                sum += nums[i];
+                ans = max(ans, sum - minPreSum);
+                minPreSum = min(sum, minPreSum);
             }
+            return ans;
         }
-        return ans;
+
     }
 };
