@@ -10,10 +10,53 @@ public:
     {
         if (!root)
             return true;
-
+        queue<TreeNode *> qTree;
+        vector<int> v;
+        qTree.push(root);
+        int len;
+        TreeNode *node;
+        int count = 0;
+        while (count < qTree.size())
+        {
+            v.clear();
+            count = 0;
+            len = qTree.size();
+            for (int i = 0; i < len; ++i)
+            {
+                node = qTree.front();
+                qTree.pop();
+                if (node)
+                {
+                    v.push_back(node->val);
+                    qTree.push(node->left);
+                    qTree.push(node->right);
+                    if (!node->left) count += 1;
+                    if (!node->right) count += 1;
+                } else
+                {
+                    v.push_back(-1);
+                    qTree.push(nullptr);
+                    qTree.push(nullptr);
+                    count += 2;
+                }
+            }
+            if (isSymmetricVector(v))
+                continue;
+            else
+                return false;
+        }
+        return true;
     }
-    bool isSymmetricQueue(queue<int>)
+
+    bool isSymmetricVector(vector<int> v)
     {
 
+        int len = v.size();
+        for (int i = 0; i < len / 2; ++i)
+        {
+            if (v[i] != v[len - i - 1])
+                return false;
+        }
+        return true;
     }
 };
