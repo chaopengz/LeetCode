@@ -17,7 +17,7 @@ public:
             for (int j = i; j <= len; ++j)
             {
                 sum += nums[j - 1];
-                if(sum==k)
+                if (sum == k)
                     ans++;
             }
         }
