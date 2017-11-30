@@ -1,9 +1,9 @@
-#include "560.cpp"
+#include "039.cpp"
 
 int main()
 {
-    int a[] = {1, 1, 1};
-    vector<int> v(a, a + 3);
-    Solution s;
-    cout << s.subarraySum(v, 2);
+    Solution so;
+    int a[] = {2, 3, 6, 7};
+    vector<int> v(a, a + 4);
+    so.combinationSum(v, 7);
 }
