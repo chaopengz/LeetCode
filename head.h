@@ -17,8 +17,8 @@
 #include <cstdlib>
 #include <cstring>
 #include <list>
-#define INT_MIN -10000000
-#define INT_MAX 1000000
+//#define INT_MIN -10000000
+//#define INT_MAX 1000000
 
 using namespace std;
 struct TreeNode {
