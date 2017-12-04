@@ -186,5 +186,5 @@ int isBSTUtil(TreeNode *root, int min, int max)
 
 int isBST(TreeNode *root)
 {
-    return isBSTUtil(root, INT_MIN, INT_MAX);
+    return isBSTUtil(root, INT32_MIN, INT32_MIN);
 }

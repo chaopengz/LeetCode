@@ -16,7 +16,7 @@ public:
 
         s0.push_back(0);
         s1.push_back(-prices[0]);
-        s2.push_back(INT_MIN);
+        s2.push_back(INT32_MIN);
 
         for (int i = 1; i < len; ++i)
         {
