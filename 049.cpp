@@ -35,6 +35,10 @@ public:
                 ans.push_back(v);
             }
         }
+        for(int i= 0 ;i < ans.size();i++)
+        {
+            ans[i].erase(ans[i].begin());
+        }
         return ans;
     }
 };
