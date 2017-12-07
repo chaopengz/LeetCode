@@ -9,7 +9,7 @@ public:
     int maxProfit(vector<int> &prices)
     {
         int len = prices.size();
-        int minN = prices[0], maxN = -1 << 30;
+        int minN = prices[0], maxN = INT32_MIN;
 
         for (int i = 1; i < len; ++i)
         {
