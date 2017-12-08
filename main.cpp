@@ -1,4 +1,4 @@
-#include "114.cpp"
+#include "171.cpp"
 #include "buildTree.h"
 
 int main()
@@ -8,6 +8,5 @@ int main()
 //    int a[] = {0,1,0,2,1,0,1,3,2,1,2,1};
 //    vector<int> v(a, a + 12);
 
-    cout << 'C' - 'A' + 1 << endl;
-
+    cout << so.titleToNumber("ZB");
 }
