@@ -9,8 +9,8 @@ public:
     {
         if (!nums.size())
             return 0;
-        map<int, int> m;
-        set<int> s;
+        unordered_map<int, int> m;
+        unordered_set<int> s;
         int len = 1;
         int ans = INT32_MIN;
         for (auto i:nums)

@@ -8,6 +8,6 @@ class Solution {
 public:
     int numIslands(vector<vector<char>> &grid)
     {
-
+        return 0;
     }
 };
