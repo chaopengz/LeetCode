@@ -16,7 +16,7 @@ public:
         m['C'] = 100;
         m['D'] = 500;
         m['M'] = 1000;
-        //test
+        
         int len = s.size();
         int sum = 0;
         for (int i = 0; i < len - 1; ++i)
