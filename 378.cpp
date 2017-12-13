@@ -12,7 +12,7 @@ public:
 
         int left = matrix[0][0];
         int right = matrix[n - 1][n - 1];
-
+        //k最小总在[left,right]中
         while (left < right)
         {
             int midv = (left + right) / 2;
