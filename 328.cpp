@@ -17,10 +17,9 @@ public:
     {
         if (!head)
             return nullptr;
-        ListNode *ans = head;
-        ListNode *currentNode = ans, *nextNode;
-        ListNode *secondNode = ans->next;
-        int count = 1;
+        ListNode *currentNode = head, *nextNode;
+        ListNode *secondNode = head->next;
+        int count = 0;
         while (true)
         {
             count++;
@@ -38,11 +37,13 @@ public:
                 }
             } else//偶
             {
-                if(currentNode->next)//最后一个偶节点
-                currentNode->next = ;
+                if (currentNode->next && currentNode->next->next)//不是最后一个偶节点
+                    currentNode->next = currentNode->next->next;
+                else//最后一个偶数节点
+                    currentNode->next = nullptr;
             }
             currentNode = nextNode;
         }
-        return ans;
+        return head;
     }
 };
