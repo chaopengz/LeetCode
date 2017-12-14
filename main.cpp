@@ -1,10 +1,10 @@
-#include "268.cpp"
+#include "108.cpp"
 #include "buildTree.h"
 
 int main()
 {
-    int a[] = {9, 6, 4, 2, 3, 5, 7, 0, 1};
-    vector<int> v(a, a + 9);
+    int a[] = {-10, -3, 0, 5, 9};
+    vector<int> v(a, a + 5);
     Solution s;
-    cout << s.missingNumber(v);
+    s.sortedArrayToBST(v);
 }
