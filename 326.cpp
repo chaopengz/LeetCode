@@ -16,6 +16,5 @@ public:
                 break;
         }
         return binary_search(v.begin(), v.end(), n);
-
     }
 };
