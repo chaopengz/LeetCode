@@ -1,10 +1,11 @@
-#include "066.cpp"
+#include "010.cpp"
 #include "buildTree.h"
 
 int main()
 {
+    string a1, a2;
+    a1 = "aa";
+    a2 = "a*";
     Solution so;
-    int a[] = {9};
-    vector<int> v(a, a + 1);
-    so.plusOne(v);
+    cout << so.isMatch(a1, a2);
 }
