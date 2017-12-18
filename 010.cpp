@@ -13,7 +13,7 @@ public:
         dp[0][1] = false;
         for (int j = 2; j <= n; ++j)//s为空
         {
-            if (p[j] == '*')//a*只能出现0次，以为s为空
+            if (p[j - 1] == '*')//a*只能出现0次，因为s为空
                 dp[0][j] = dp[0][j - 2];
             else//p[j]为.或*
                 dp[0][j] = false;
