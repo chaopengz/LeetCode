@@ -1,11 +1,10 @@
-#include "010.cpp"
+#include "162.cpp"
 #include "buildTree.h"
 
 int main()
 {
-    string a1, a2;
-    a1 = "aa";
-    a2 = "a*";
     Solution so;
-    cout << so.isMatch(a1, a2);
+    int a[] = {1,2,3,1};
+    vector<int> v(a,a+4);
+    so.findPeakElement(v);
 }
