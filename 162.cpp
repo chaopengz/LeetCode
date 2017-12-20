@@ -2,11 +2,9 @@
 // Created by chaopengz on 2017/12/18.
 //
 #include "head.h"
-
 class Solution {
 public:
-    int findPeakElement(const vector<int> &nums)
-    {
+    int findPeakElement(vector<int>& nums) {
         int len = nums.size();
         for (int i = 0; i < len-1; ++i)
         {
