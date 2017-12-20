@@ -1,10 +1,10 @@
-#include "162.cpp"
+#include "172.cpp"
 #include "buildTree.h"
 
 int main()
 {
+
     Solution so;
-    int a[] = {1,2,3,1};
-    vector<int> v(a,a+4);
-    so.findPeakElement(v);
+    cout<<so.trailingZeroes(1808548329);//1808548329--452137076
+
 }
