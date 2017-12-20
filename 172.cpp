@@ -9,27 +9,11 @@ public:
     int trailingZeroes(int n)
     {
         int ans = 0;
-        for (int i = 5; i <= n; i += 5)
+        int cnt = 0;
+        for (long long i = 5; n / i > 0; i *= 5)
         {
-            ans += count_five(i);
-        }
-        return ans;
-    }
-
-    int count_five(int n)
-    {
-        int ans = 0;
-        while (n / 5 >= 1)
-        {
-            if (n % 5 == 0)
-            {
-                ans++;
-                n /= 5;
-            }else
-            {
-                break;
-            }
-
+            cnt = n / i;
+            ans += cnt;
         }
         return ans;
     }
