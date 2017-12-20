@@ -4,6 +4,8 @@
 int main()
 {
 
+    BuildTree build;
+
     Solution so;
     cout << so.trailingZeroes(1808548329);//1808548329--452137076
 }
