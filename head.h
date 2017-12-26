@@ -21,8 +21,6 @@
 #include <cmath>
 #include <unordered_map>
 #include <unordered_set>
-//#define INT_MIN -10000000
-//#define INT_MAX 1000000
 
 using namespace std;
 
