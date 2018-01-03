@@ -1,15 +1,10 @@
-#include "034.cpp"
+#include "154.cpp"
 #include "buildTree.h"
 
 int main()
 {
-    int a[] = {2, 2};
+    int a[] = {1, 1};
     vector<int> v(a, a + 2);
     Solution solution;
-    vector<int> ans;
-    ans = solution.searchRange(v, 2);
-    for (auto item:ans)
-    {
-        cout << item << " ";
-    }
+    cout << solution.findMin(v);
 }
