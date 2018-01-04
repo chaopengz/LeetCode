@@ -5,27 +5,22 @@
 #ifndef LEETCODE_BUILDTREE_H
 #define LEETCODE_BUILDTREE_H
 
-#endif //LEETCODE_BUILDTREE_H
 
 #include "head.h"
-
-
 
 
 class BuildTree {
 public:
     void trimLeftTrailingSpaces(string &input)
     {
-        input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch)
-        {
+        input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
             return !isspace(ch);
         }));
     }
 
     void trimRightTrailingSpaces(string &input)
     {
-        input.erase(find_if(input.rbegin(), input.rend(), [](int ch)
-        {
+        input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
             return !isspace(ch);
         }).base(), input.end());
     }
@@ -88,6 +83,7 @@ public:
         TreeNode *root = stringToTreeNode(str);
         return root;
     }
+
     void doubleTree(TreeNode *root)
     {
         if (!root)
@@ -101,4 +97,7 @@ public:
         root->left = newNode;
     }
 };
+
+#endif //LEETCODE_BUILDTREE_H
+
 
