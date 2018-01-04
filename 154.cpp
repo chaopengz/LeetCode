@@ -16,8 +16,10 @@ public:
         if (rotateArray[0] < rotateArray[len - 1])//没有旋转
             return rotateArray[0];
 
+
         int low = 0, high = len - 1;
         int mid;
+
         while (low <= high)
         {
             mid = (low + high) / 2;
@@ -39,6 +41,18 @@ public:
             return nums[index] < nums[nums.size() - 1];
         else
             return nums[index] <= nums[index + 1] && nums[index] < nums[index - 1];
+    }
+
+    bool findMax(vector<int> nums)
+    {
+        int low = 0, high = nums.size();
+        int mid;
+        while (low < high)
+        {
+            mid = (low + high) / 2;
+
+        }
+        return nums[low];
     }
 
 };
