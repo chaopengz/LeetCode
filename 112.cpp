@@ -10,16 +10,9 @@ public:
     {
         if (!root)
             return false;
-        else
-            return hasPathSumHelp(root, sum);
+        if ((!root->left) && (!root->right))//leaf node
+            return root->val == sum;
+        return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
     }
 
-    bool hasPathSumHelp(TreeNode *root, int sum)
-    {
-        if (!root)
-            return sum == 0;
-        else
-            return hasPathSumHelp(root->left, sum - root->val)
-                   || hasPathSumHelp(root->right, sum - root->val);
-    }
 };
