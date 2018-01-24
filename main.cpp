@@ -1,4 +1,4 @@
-#include "112.cpp"
+#include "264.cpp"
 #include "buildTree.h"
 
 int main()
@@ -7,5 +7,5 @@ int main()
     BuildTree buildTree;
     TreeNode *root = buildTree.stringToTree("[]");
 
-    cout << solution.hasPathSum(root, 0);
+    cout << solution.nthUglyNumber(14);
 }
