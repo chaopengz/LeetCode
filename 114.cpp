@@ -31,19 +31,36 @@ public:
 //        preTravel(root->right, v);
 //    }
 
+//    void flatten(TreeNode *root)
+//    {
+//        if (!root)
+//            return;
+//
+//        flatten(root->right);
+//        flatten(root->left);
+//
+//        root->right = preNode;
+//        root->left = nullptr;
+//        preNode = root;
+//    }
+//
+//    TreeNode *preNode = nullptr;
+
     void flatten(TreeNode *root)
     {
-        if (!root)
-            return;
-
-        flatten(root->right);
-        flatten(root->left);
-
-        root->right = preNode;
-        root->left = nullptr;
-        preNode = root;
+        flatten(root, nullptr);
 
     }
 
-    TreeNode *preNode = nullptr;
+    TreeNode *flatten(TreeNode *root, TreeNode *pre)
+    {
+        if (!root)
+            return pre;
+        pre = flatten(root->right, pre);
+        pre = flatten(root->left, pre);
+        root->right = pre;
+        root->left = nullptr;
+        pre = root;
+        return pre;
+    }
 };
