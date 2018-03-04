@@ -6,28 +6,61 @@
 
 class Solution {
 public:
+//    void flatten(TreeNode *root)
+//    {
+//        vector<int> v;
+//        if (!root)
+//            return;
+//        preTravel(root, v);
+//        TreeNode *pre = root;
+//        pre->left = nullptr;
+//        for (int i = 1; i < v.size(); i++)
+//        {
+//            TreeNode *node = new TreeNode(v[i]);
+//            pre->right = node;
+//            pre = node;
+//        }
+//    }
+//
+//    void preTravel(TreeNode *root, vector<int> &v)
+//    {
+//        if (!root)
+//            return;
+//        v.push_back(root->val);
+//        preTravel(root->left, v);
+//        preTravel(root->right, v);
+//    }
+
+//    void flatten(TreeNode *root)
+//    {
+//        if (!root)
+//            return;
+//
+//        flatten(root->right);
+//        flatten(root->left);
+//
+//        root->right = preNode;
+//        root->left = nullptr;
+//        preNode = root;
+//    }
+//
+//    TreeNode *preNode = nullptr;
+
     void flatten(TreeNode *root)
     {
-        vector<int> v;
-        if (!root)
-            return;
-        preTravel(root, v);
-        TreeNode *pre = root;
-        pre->left = nullptr;
-        for (int i = 1; i < v.size(); i++)
-        {
-            TreeNode *node = new TreeNode(v[i]);
-            pre->right = node;
-            pre = node;
-        }
+        flatten(root, nullptr);
+
     }
 
-    void preTravel(TreeNode *root, vector<int> &v)
+    TreeNode *flatten(TreeNode *root, TreeNode *pre)
     {
         if (!root)
-            return;
-        v.push_back(root->val);
-        preTravel(root->left, v);
-        preTravel(root->right, v);
+            return pre;
+        pre = flatten(root->right, pre);
+        pre = flatten(root->left, pre);
+        root->right = pre;
+        root->left = nullptr;
+        pre = root;
+        return pre;
     }
 };
