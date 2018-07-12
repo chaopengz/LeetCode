@@ -788,35 +788,35 @@ void maxmin(student q[], int b)                       //最值、均值函数
     printf("平均分为:%.2lf\n", sum / b);       //平均分
     //return 0;
 }
-
-
-int main()                                          //主函数
-{
-
-    int choice;
-    student stu[1];                                //学生结构体组
-    exam que[100];                                  //试题结构体组
-    inputstudent(stu);
-    int count = 1;
-    do
-    {
-        menu();
-        printf("请选择:\n");
-        scanf("%d", &choice);
-        switch (choice)
-        {
-            case 1:                                     //试题录入
-                shitiluru(que);
-                break;
-            case 2:                                     //考试
-                kaoshi(stu, que);
-                break;
-            case 3:                                     //查询
-                chaxun(stu);
-                break;
-            case 0:
-                printf("   欢迎再次使用试题信息管理系统   \n");
-        }
-    } while (choice);
-    return 0;
-}
+//
+//
+//int main()                                          //主函数
+//{
+//
+//    int choice;
+//    student stu[1];                                //学生结构体组
+//    exam que[100];                                  //试题结构体组
+//    inputstudent(stu);
+//    int count = 1;
+//    do
+//    {
+//        menu();
+//        printf("请选择:\n");
+//        scanf("%d", &choice);
+//        switch (choice)
+//        {
+//            case 1:                                     //试题录入
+//                shitiluru(que);
+//                break;
+//            case 2:                                     //考试
+//                kaoshi(stu, que);
+//                break;
+//            case 3:                                     //查询
+//                chaxun(stu);
+//                break;
+//            case 0:
+//                printf("   欢迎再次使用试题信息管理系统   \n");
+//        }
+//    } while (choice);
+//    return 0;
+//}
