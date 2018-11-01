@@ -4,7 +4,8 @@
 
 #include "head.h"
 
-class Solution {
+class Solution
+{
 public:
     vector<int> plusOne(vector<int> &digits)
     {
@@ -13,11 +14,7 @@ public:
         if (!len)
             return ans;
         int jw = 1;
-        int
-
-
-
-                gw;
+        int gw;
         int sum;
         for (int i = len - 1; i >= 0; --i)
         {

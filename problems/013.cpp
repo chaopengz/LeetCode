@@ -4,7 +4,8 @@
 
 #include "head.h"
 
-class Solution {
+class Solution
+{
 public:
     int romanToInt(string s)
     {

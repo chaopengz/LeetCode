@@ -1,3 +1,4 @@
-cmake-build-debug/
-/.DS_Store
-.idea/
+/contests/.idea
+/contests/cmake-build-debug
+/problems/.idea
+/problems/cmake-build-debug
