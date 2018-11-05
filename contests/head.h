@@ -13,5 +13,8 @@
 #include <unordered_map>
 #include <sstream>
 #include <cctype>
+#include <queue>
+#include <list>
+
 using namespace std;
 #endif //LEETCODE_CONTEST_HEAD_H
