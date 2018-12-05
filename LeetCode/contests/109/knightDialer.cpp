@@ -1,8 +1,4 @@
 //
-// Created by laryzhang on 2018/11/6.
-//
-
-//
 // Created by laryzhang on 2018/11/5.
 //
 #include "../head.h"

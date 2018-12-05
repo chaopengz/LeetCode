@@ -1,4 +1,6 @@
-/contests/.idea
-/contests/cmake-build-debug
-/problems/.idea
-/problems/cmake-build-debug
+/GCJ/.idea
+/GCJ/cmake-build-debug
+/LeetCode/contests/.idea
+/LeetCode/contests/cmake-build-debug
+/LeetCode/problems/.idea
+/LeetCode/problems/cmake-build-debug
