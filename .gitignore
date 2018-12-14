@@ -1,5 +1,5 @@
-/GCJ/.idea
-/GCJ/cmake-build-debug
+/Kickstart/.idea
+/Kickstart/cmake-build-debug
 /LeetCode/contests/.idea
 /LeetCode/contests/cmake-build-debug
 /LeetCode/problems/.idea
@@ -7,4 +7,4 @@
 /.DS_Store
 /.idea
 /cmake-build-debug
-/GCJ/.DS_Store
+/Kickstart/.DS_Store
