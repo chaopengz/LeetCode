@@ -1,6 +1,16 @@
 //
 // Created by laryzhang on 2018/12/11.
 //
+/*
+ * https://codejam.withgoogle.com/codejam/contest/3324486/dashboard#s=p0
+ * 思路：
+ *      1. N个按钮总共2^N次种可能
+ *      2. 如果禁止的前缀中存在重叠，则取最短的，抛弃最长的
+ *      3. 用总的可能逐个减去禁止前缀的可能种树，得到最后答案
+ *
+ *      c++ 判断是否Begin With:
+ *      pos_str.compare(0, pre_str.length(), pre_str) == 0 //pos_str是否begin with pre_str
+ */
 #include <iostream>
 #include <vector>
 #include <string>
@@ -19,7 +29,7 @@ public:
         return ans;
     }
 
-    static bool comp(string &s1, string &s2) {
+    static bool comp(string &s1, string &s2) {//按字符串长度排序，越长越后
         return s1.size() < s2.size();
     }
 
@@ -41,7 +51,7 @@ public:
             }
             sort(strs.begin(), strs.end(), comp);
 
-            vector<string> selected;
+            vector<string> selected;//处理完原始禁止前缀重叠问题后的禁止前缀集合
             for (int i = strs.size() - 1; i > 0; --i) {
                 string pos_str = strs[i];
                 bool is_begin_with = false;
