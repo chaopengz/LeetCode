@@ -8,3 +8,6 @@
 /.idea
 /cmake-build-debug
 /Kickstart/.DS_Store
+/GCJ/cmake-build-debug
+/GCJ/.idea/
+/GCJ/.DS_Store
