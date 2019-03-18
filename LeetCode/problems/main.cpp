@@ -1,7 +1,14 @@
-#include "904.cpp"
+#include "012.cpp"
 
-int main() {
+int main()
+{
     Solution s;
-    vector<int> v{0,1,2,2};
-    std::cout<<s.totalFruit(v);
+    std::cout << s.intToRoman(3) << std::endl;
+    std::cout << s.intToRoman(4) << std::endl;
+    std::cout << s.intToRoman(9) << std::endl;
+    std::cout << s.intToRoman(58) << std::endl;
+    std::cout << s.intToRoman(1994) << std::endl;
+
+
+
 }
