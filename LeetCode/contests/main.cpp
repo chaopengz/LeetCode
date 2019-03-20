@@ -1,7 +1,8 @@
-#include "107/Flip String to Monotone Increasing.cpp"
+#include "127/Maximize Sum Of Array After K Negations.cpp"
 
 int main()
 {
     Solution s;
-    cout<<s.minFlipsMonoIncr("10011111110010111011");
+    vector<int> a = {2,-3,-1,5,-4};
+    cout << s.largestSumAfterKNegations(a, 2);
 }

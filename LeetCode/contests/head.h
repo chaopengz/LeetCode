@@ -15,6 +15,7 @@
 #include <cctype>
 #include <queue>
 #include <list>
-
+#include <stack>
+#include <cassert>
 using namespace std;
 #endif //LEETCODE_CONTEST_HEAD_H
