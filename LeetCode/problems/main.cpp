@@ -1,12 +1,9 @@
-#include "032.cpp"
+#include "055.cpp"
 
 int main()
 {
     Solution s;
-    std::cout << s.longestValidParentheses("()(()") << std::endl; //2
-    std::cout << s.longestValidParentheses("(()(()") << std::endl;//2
-    std::cout << s.longestValidParentheses("(()(()))") << std::endl;//8
-    std::cout << s.longestValidParentheses("()(())") << std::endl;//6
-    std::cout << s.longestValidParentheses("())") << std::endl;//2
-    std::cout << s.longestValidParentheses(")(((((()())()()))()(()))(") << std::endl;
+    int a[] = {2,0};
+    vector<int> va(a, a + 2);
+    std::cout << s.canJump(va);
 }
