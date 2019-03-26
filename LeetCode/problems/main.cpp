@@ -1,10 +1,10 @@
-#include "105.cpp"
+#include "106.cpp"
 
 int main()
 {
     Solution s;
-    vector<int> pre = {3,9,20,15,7};
-    vector<int> in = {9,3,15,20,7};
-    TreeNode *root = s.buildTree(pre, in);
+    vector<int> in = {9, 3, 15, 20, 7};
+    vector<int> postorder = {9, 15, 7, 20, 3};
+    TreeNode *root = s.buildTree(in, postorder);
     std::cout << "hello world";
 }
