@@ -1,13 +1,8 @@
-#include "064.cpp"
+#include "581.cpp"
 
 int main()
 {
     Solution s;
-    vector<vector<int>> input{
-            {1, 3, 1},
-            {1, 5, 1},
-            {4, 2, 1}
-    };
-    std::cout << s.minPathSum(input);
-
+    std::vector<int> input = {2, 6, 4, 8, 10, 9, 15};
+    std::cout << s.findUnsortedSubarray(input);
 }
