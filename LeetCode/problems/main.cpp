@@ -1,9 +1,13 @@
-#include "055.cpp"
+#include "064.cpp"
 
 int main()
 {
     Solution s;
-    int a[] = {2,0};
-    vector<int> va(a, a + 2);
-    std::cout << s.canJump(va);
+    vector<vector<int>> input{
+            {1, 3, 1},
+            {1, 5, 1},
+            {4, 2, 1}
+    };
+    std::cout << s.minPathSum(input);
+
 }
