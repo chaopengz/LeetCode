@@ -1,12 +1,13 @@
-#include "438.cpp"
+#include "024.cpp"
+
 
 int main()
 {
-    Solution solution;
-    string s = "abab";
-    string p = "ab";
-    vector<int> ans = solution.findAnagrams(s, p);
-    std::cout << "hello";
-
-
+    vector<int> v = {1,2,3,4};
+    Uitl util;
+    ListNode *test = util.buildListNode(v);
+    Solution s;
+    ListNode *ans;
+    ans = s.swapPairs(test);
+    cout<<"hel";
 }

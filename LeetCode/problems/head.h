@@ -39,5 +39,21 @@ struct ListNode {
 
     ListNode(int x) : val(x), next(nullptr) {};
 };
-
+class Uitl
+{
+public:
+   ListNode* buildListNode(vector<int> vec)
+   {
+       if(vec.empty())
+           return nullptr;
+       auto firstNode = new ListNode(vec[0]);
+       auto pre = firstNode;
+       for (int i = 1; i < vec.size(); ++i) {
+           auto node = new ListNode(vec[i]);
+           pre->next = node;
+           pre = node;
+       }
+       return firstNode;
+   }
+};
 #endif //LEETCODE_HEAD_H

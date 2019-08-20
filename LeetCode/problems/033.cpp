@@ -24,11 +24,6 @@ public:
         return -1;
     }
 
-    bool maxMatch(vector<int> &nums, int i)
-    {
-
-    }
-
     int search(vector<int> &nums, int target)
     {
         if (!nums.size())
