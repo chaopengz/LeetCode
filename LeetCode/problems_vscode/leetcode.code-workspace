@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "problems",
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.cppStandard": "c++11",
+		"C_Cpp.default.cStandard": "c11",
+		"code-runner.clearPreviousOutput": true,
+		"code-runner.saveAllFilesBeforeRun": true,
+		"code-runner.executorMap": {
+			"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -std=c++14 && $dir$fileNameWithoutExt"
+			},
+			"files.associations": {
+				"typeinfo": "cpp",
+				"vector": "cpp"
+			},
+	}
+}
